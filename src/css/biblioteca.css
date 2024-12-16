@@ -1,0 +1,29 @@
+.biblioteca-contenedor 
+{
+    display: flex;
+    justify-content: space-between; 
+    gap: 3px ; 
+    margin: 5rem;
+}
+  
+.btn-custom 
+{
+    background-color: rgb(153, 100, 51) !important; 
+    color: white !important; 
+}
+
+.btn-custom:hover 
+{
+    background-color: rgb(153, 100, 51);
+    color: white; 
+}
+  
+  
+.card-img {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 0.25rem; 
+}
+
+  

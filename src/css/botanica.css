@@ -1,0 +1,38 @@
+.botanica-contenedor {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 2rem auto;
+    max-width: 1200px;
+}
+
+.texto-columna {
+    width: 50%;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: start;
+}
+
+.texto-columna h2 {
+    background-color: rgba(165, 97, 42, 0.24);
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-top: 0;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.texto-columna ul, .texto-columna p {
+    text-align: start;
+    margin-bottom: 1rem;
+}
+
+.imagen-columna {
+    width: 50%;
+}
+
+.imagen-columna img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}

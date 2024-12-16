@@ -1,0 +1,30 @@
+.faq-cont {
+    margin: 40px;
+    margin-top: -20px;
+}
+
+.mi-acordeon .accordion-header {
+    font-size: 1.2rem; 
+}
+
+.mi-acordeon .accordion-button:not(.collapsed) {
+    background-color: rgb(114, 79, 55);
+    color: white;
+    border-color: black;
+}
+
+.mi-acordeon .accordion-item {
+    border-color: black;
+}
+
+.mi-acordeon .accordion-button:not(.collapsed):hover {
+    background-color: rgb(114, 79, 55);
+}
+
+.mi-acordeon .accordion-button:focus {
+    box-shadow: 0 0 0 0.25rem rgb(114, 79, 55);
+}
+
+.mi-acordeon .accordion-body {
+    font-size: 1rem; /* Tamaño de fuente del cuerpo */
+}

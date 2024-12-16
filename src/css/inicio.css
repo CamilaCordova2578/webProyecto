@@ -1,0 +1,99 @@
+.inicio-cont
+{
+    margin: 4rem 6rem;
+    margin-top: -80px;
+}
+
+.mision
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+
+.vision
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+
+.mision-text
+{
+   
+    width: 50%;
+    text-align: start;
+    font-size: 1.1rem;
+}
+
+.mision-text h1
+{
+    background-color: rgba(165, 97, 42, 0.24);
+    padding-left:10px;
+    padding-top: 3px;
+    padding-bottom: 3px !important;
+    margin-bottom: 10px;
+}
+
+
+.mision-text h1
+{
+    padding-bottom: 1rem;
+}
+
+.mision-img
+{
+    position: relative;
+    margin-top: 70px;
+    width: 40%;
+    box-shadow: -1px 1px 62px -28px rgb(0, 0, 0, 0.7);
+}
+
+.vision-img
+{
+    position: relative;
+    margin-top: 70px;
+    width: 40%;
+    box-shadow: -1px 1px 62px -28px rgb(0, 0, 0, 0.7);
+}
+
+@media screen and (max-width: 850px)
+{
+    .inicio-cont
+    {
+        margin: 4rem 2rem;
+    }
+    .mision
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 2.5rem;  
+    }
+
+    .vision
+    {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2.5rem;  
+    }
+
+    .mision-img
+    {
+        margin-top: 0px;
+        width: 100%;
+    }
+
+    .vision-img
+    {
+        width: 100%;
+    }
+
+    .mision-text
+    {
+        width: 100%;
+    }
+}
+
+

@@ -1,0 +1,31 @@
+.container-flex 
+{
+    display: flex;
+    gap: 15px; 
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+  
+.text-area 
+{
+    flex: 1; 
+    padding: 10px;
+    text-align: start;
+}
+
+.text-area h2
+{
+    flex: 1; 
+    padding: 10px;
+    background-color: rgba(165, 97, 42, 0.24);
+}
+
+.text-area ul 
+{
+
+    justify-content: flex-start !important;
+}
+
+
+
+  

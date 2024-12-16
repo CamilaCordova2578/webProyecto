@@ -1,0 +1,34 @@
+.info-contenedor {
+    display: grid;
+    gap: 20px; 
+  }
+  
+  .info-contenedor a {
+    font-size: 20px;
+  }
+    
+  .imagen-fila {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 100%;
+    height: 100%; 
+  }
+  .imagen-fila img {
+    width: 50rem; 
+    height: auto; 
+  }
+    
+  .info-fila {
+    display: flex; 
+    justify-content: space-between;
+    margin: 40px;
+  }
+    
+  .info-item {
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+    font-size: 20px;
+  }
+  

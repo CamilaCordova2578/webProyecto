@@ -1,0 +1,49 @@
+.footer
+{
+    padding: 40px;
+    background: black;
+    color: white;
+}
+
+.top
+{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.top .redes
+{
+    display: flex;
+    margin: 10px;
+}
+
+.top .redes h2
+{
+    margin-right: 49rem;
+}
+
+.top i
+{
+    color: white;
+    font-size: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+
+.top p i
+{
+    color: white;
+    font-size: 1.2rem !important;
+    margin-left: 0px !important;
+    margin-right: 0.5rem;
+    margin: 10px;
+}
+
+.top i:hover
+{
+    color: rgb(161, 79, 31);
+}
